@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 header {
   background-color: rgb(9, 252, 179);
 }
@@ -6,4 +11,34 @@ nav {
 }
 section {
   background-color: rgb(255, 0, 0);
+}
+
+.vertical-line {
+  width: 4px;           
+  height: 50px;        
+  background-color: rgb(255, 255, 255); 
+  margin-left: 170px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 15px;
+}
+
+.logobit {
+  font-size: 50px;
+  margin-left: 70px;
+  padding-top: 28px;
+}
+
+.sublogobit {
+  margin-left: 178px;
+  top: -60px;
+  position: relative;
+
 }

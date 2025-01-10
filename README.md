@@ -32,3 +32,5 @@ Metodologia de proyecto
 5. Funcionalidad:
    Botón destacado de "Solicitar Consulta" en la parte superior y al final de cada página.
    Formularios de contacto simples y visibles en la página de "Contacto".
+
+[visita la pagina](https://valerestan.github.io/bit-pagina-equipo/)
