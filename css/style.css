@@ -5,6 +5,11 @@
 
 header {
   position: relative;
+  background-image: url("../Imagenes/portada.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 790px;
 }
 
 .imgportada {
@@ -14,14 +19,40 @@ header {
   margin-top: -800px;
 }
 
+.linea {
+  width: 3px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 159px;
+  margin-top: -50px;
+}
+
 .menu {
   position: relative;
+  display: flex;
   z-index: 3;
+  width: 20px;
+  height: 20px;
+  margin-left: 1270px;
+  margin-top: -107px;
+}
+
+.menu-imagen {
+  width: 100%;
 }
 
 .preguntasfrecuentes {
   position: relative;
+  display: flex;
   z-index: 3;
+  width: 25px;
+  height: 30px;
+  margin-left: 1320px;
+  margin-top: -25px;
+}
+
+.preguntas-imagen {
+  width: 100%;
 }
 
 ul {
@@ -30,8 +61,10 @@ ul {
   list-style-type: none;
   z-index: 2;
   color: white;
-  margin-left: 600px;
+  margin-left: 800px;
   position: relative;
+  top: -90px;
+  font-size: 17px;
 }
 
 li {
@@ -46,6 +79,7 @@ li {
 
 .logobit {
   font-size: 50px;
+  display: flex;
   margin-left: 70px;
   padding-top: 28px;
   position: relative;
@@ -63,9 +97,157 @@ li {
   top: -60px;
   position: relative;
   color: white;
+  display: flex;
 
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
+
+.tituloprincipal {
+  font-size: 60px;
+  color: white;
+  margin-top: 140px;
+  margin-left: 500px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: bold;
+}
+
+.titulosegundario {
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.591);
+  margin-top: 4px;
+  font-style: 10px;
+  line-height: 55px;
+  text-align: center;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: bold;
+}
+
+.botonhablemos {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 255, 10);
+  color: rgb(14, 14, 120);
+  height: 40px;
+  margin-left: 680px;
+  margin-top: 30px;
+}
+
+.subtitulo {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  line-height: 35px;
+  font-style: 10px;
+  text-align: center;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: bold;
+}
+
+.estudiantes {
+  margin-top: 100px;
+  font-size: 60px;
+  color: rgb(14, 12, 97);
+  margin-top: 140px;
+  margin-left: 250px;
+  line-height: 50px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+.subestudiantes {
+  margin-top: 100px;
+  font-size: 20px;
+  color: rgb(14, 12, 97);
+  margin-top: 10px;
+  margin-left: 250px;
+  line-height: 20px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+.botonunete {
+  position: relative;
+  display: flex;
+  background-color: rgb(247, 255, 10);
+  color: rgb(14, 14, 120);
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.numero1 {
+  margin-top: 100px;
+  font-size: 70px;
+  color: rgb(122, 6, 255);
+  margin-top: -170px;
+  margin-left: 900px;
+  line-height: 20px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+.desnu1 {
+  margin-top: 100px;
+  font-size: 20px;
+  color: rgba(48, 48, 48, 0.53);
+  margin-top: 28px;
+  margin-left: 930px;
+  line-height: 20px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+.numero2 {
+  margin-top: 100px;
+  font-size: 70px;
+  color: rgb(122, 6, 255);
+  margin-top: 60px;
+  margin-left: 900px;
+  line-height: 20px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+.desnu2 {
+  margin-top: 100px;
+  font-size: 20px;
+  color: rgba(48, 48, 48, 0.53);
+  margin-top: 28px;
+  margin-left: 460px;
+  line-height: 20px;
+  text-align: center;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+
