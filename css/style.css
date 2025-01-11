@@ -4,41 +4,68 @@
 }
 
 header {
-  background-color: rgb(9, 252, 179);
-}
-nav {
-  background-color: rgb(1, 98, 255);
-}
-section {
-  background-color: rgb(255, 0, 0);
+  position: relative;
 }
 
-.vertical-line {
-  width: 4px;           
-  height: 50px;        
-  background-color: rgb(255, 255, 255); 
-  margin-left: 170px;
+.imgportada {
+  width: 100%;
+  height: 928px;
+  z-index: 1;
+  margin-top: -800px;
+}
+
+.menu {
+  position: relative;
+  z-index: 3;
+}
+
+.preguntasfrecuentes {
+  position: relative;
+  z-index: 3;
 }
 
 ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  z-index: 2;
+  color: white;
+  margin-left: 600px;
+  position: relative;
 }
 
 li {
   margin-right: 15px;
+  z-index: 2;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .logobit {
   font-size: 50px;
   margin-left: 70px;
   padding-top: 28px;
+  position: relative;
+  z-index: 2;
+  color: white;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: bold;
 }
 
 .sublogobit {
   margin-left: 178px;
   top: -60px;
   position: relative;
+  color: white;
 
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
