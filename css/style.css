@@ -1524,7 +1524,7 @@ li {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   ul {
     margin-left: 300px;
   }
