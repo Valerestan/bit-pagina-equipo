@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   position: relative;
   background-image: url("../Imagenes/portada.jpg");
@@ -137,14 +141,24 @@ li {
 }
 
 .botonhablemos {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: rgb(247, 255, 10);
-  color: rgb(14, 14, 120);
-  height: 40px;
-  margin-left: 680px;
+  margin-left: 630px;
   margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #fdfd60;
+  color: #003970;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botonhablemos:hover {
+  color: white;
+  background-color: #d505ff;
+  transition: 0.3s ease-in-out;
 }
 
 .subtitulo {
@@ -188,12 +202,24 @@ li {
 }
 
 .botonunete {
-  position: relative;
-  display: flex;
-  background-color: rgb(247, 255, 10);
-  color: rgb(14, 14, 120);
   margin-left: 250px;
   margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #fdfd60;
+  color: #003970;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botonunete:hover {
+  color: white;
+  background-color: #d505ff;
+  transition: 0.3s ease-in-out;
 }
 
 .numero1 {
@@ -380,7 +406,7 @@ li {
 .soluciones {
   font-size: 50px;
   color: #003970;
-  margin-top: 170px;
+  margin-top: 240px;
   line-height: 67px;
   text-align: center;
 
@@ -446,13 +472,24 @@ li {
 }
 
 .empezaruno {
-  width: 90px;
-  font-style: 40px;
-  border-radius: 8px;
-  background-color: white;
-  border-color: whitesmoke;
-  margin-top: 30px;
-  margin-left: 140px;
+  margin-left: 130px;
+  margin-top: 16px;
+  padding: 15px 30px;
+  background-color: #fdfd60;
+  color: #003970;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.empezaruno:hover {
+  color: white;
+  background-color: #d505ff;
+  transition: 0.3s ease-in-out;
 }
 
 .cuadrodos {
@@ -475,7 +512,7 @@ li {
 .titulodesarrollo {
   font-size: 40px;
   color: #393b3c;
-  margin-top: 22px;
+  margin-top: 20px;
   margin-left: 70px;
 
   font-family: "Gabarito", serif;
@@ -488,7 +525,7 @@ li {
   font-size: 20px;
   color: #515253;
   margin-top: 10px;
-  margin-left: 80px;
+  margin-left: 120px;
 
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;
@@ -497,19 +534,30 @@ li {
 }
 
 .empezardos {
-  width: 90px;
-  font-style: 40px;
-  border-radius: 8px;
-  background-color: white;
-  border-color: whitesmoke;
-  margin-top: 10px;
-  margin-left: 160px;
+  margin-left: 140px;
+  margin-top: 15px;
+  padding: 15px 30px;
+  background-color: #fdfd60;
+  color: #003970;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.empezardos:hover {
+  color: white;
+  background-color: #d505ff;
+  transition: 0.3s ease-in-out;
 }
 
 .titulonuestros {
   font-size: 50px;
   color: #003970;
-  margin-top: 170px;
+  margin-top: 250px;
   line-height: 67px;
   text-align: center;
 
@@ -542,6 +590,7 @@ li {
   margin-left: 280px;
   margin-top: 200px;
 }
+
 .imguno {
   width: 150px;
   border-radius: 50%;
@@ -734,7 +783,7 @@ li {
 
 .desarrollocuatro {
   font-size: 20px;
-  color: #393b3c;
+  color: #393b3cb5;
   margin-left: 100px;
   margin-top: 10px;
 
@@ -787,7 +836,7 @@ li {
 
 .desarrollosinco {
   font-size: 20px;
-  color: #393b3c;
+  color: #393b3cb5;
   margin-left: 100px;
   margin-top: 10px;
 
@@ -840,7 +889,7 @@ li {
 
 .desarrolloseis {
   font-size: 20px;
-  color: #393b3c;
+  color: #393b3cb5;
   margin-left: 100px;
   margin-top: 10px;
 
@@ -893,7 +942,7 @@ li {
 
 .desarrollosiete {
   font-size: 20px;
-  color: #393b3c;
+  color: #393b3cb5;
   margin-left: 100px;
   margin-top: 10px;
 
@@ -946,7 +995,7 @@ li {
 
 .desarrolloocho {
   font-size: 20px;
-  color: #393b3c;
+  color: #393b3cb5;
   margin-left: 100px;
   margin-top: 10px;
 
@@ -1168,15 +1217,188 @@ li {
   font-style: normal;
 }
 
+.preguntas {
+  font-size: 70px;
+  color: #003970;
+  margin-top: 260px;
+  margin-left: 200px;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.complemento {
+  font-size: 15px;
+  color: #393b3c;
+  margin-top: 20px;
+  margin-left: 200px;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.preguntasuno {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 700px;
+  margin-top: -190px;
+}
+
+.unonumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntauno {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestauno {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.preguntascuadro {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.dosnumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntados {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestados {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.preguntascuadrotres {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.tresnumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntatres {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestatres {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .foter {
   width: 100%;
-  height: 190px;
+  height: 100px;
   background-color: #003970;
   margin-top: 120px;
 }
 
 .por {
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 15px;
   color: #c7c9ca;
   line-height: 1.3;
@@ -1185,4 +1407,530 @@ li {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  ul {
+    margin-left: 400px;
+  }
+
+  .menu {
+    margin-left: 800px;
+  }
+
+  .preguntasfrecuentes {
+    margin-left: 830px;
+  }
+
+  .tituloprincipal {
+    margin-left: 240px;
+  }
+
+  .botonhablemos {
+    margin-left: 380px;
+  }
+
+  .estudiantes {
+    margin-left: 100px;
+  }
+
+  .subestudiantes {
+    margin-left: 100px;
+  }
+
+  .botonunete {
+    margin-left: 100px;
+  }
+
+  .numero1,
+  .numero2,
+  .desnu1 {
+    margin-left: 700px;
+  }
+
+  .imgcrecimiento {
+    margin-left: 160px;
+    margin-top: 100px;
+  }
+
+  .circulotres {
+    margin-left: 140px;
+    margin-top: -70px;
+  }
+
+  .itemcrecimiento,
+  .itemtextocreci {
+    margin-left: 250px;
+  }
+
+  .cuadrodos {
+    margin-left: 280px;
+    margin-top: 100px;
+  }
+
+  .uno {
+    margin-left: 60px;
+  }
+  .dos {
+    margin-left: 370px;
+  }
+  .tres {
+    margin-left: 680px;
+  }
+  .cuatro {
+    margin-left: 60px;
+  }
+  .sinco {
+    margin-left: 370px;
+  }
+  .seis {
+    margin-left: 680px;
+  }
+  .siete {
+    margin-left: 60px;
+  }
+  .ocho {
+    margin-left: 370px;
+  }
+  .nueve {
+    margin-left: 680px;
+  }
+  .diez {
+    margin-left: 60px;
+  }
+  .once {
+    margin-left: 370px;
+  }
+  .doce {
+    margin-left: 680px;
+  }
+
+  .preguntas,
+  .complemento {
+    margin-left: 350px;
+  }
+
+  .preguntasuno {
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+
+  .preguntascuadro {
+    margin-left: 200px;
+  }
+
+  .preguntascuadrotres {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    margin-left: 300px;
+  }
+
+  .menu {
+    margin-left: 660px;
+  }
+
+  .preguntasfrecuentes {
+    margin-left: 690px;
+  }
+
+  .tituloprincipal {
+    margin-left: 120px;
+  }
+
+  .botonhablemos {
+    margin-left: 250px;
+  }
+
+  .estudiantes {
+    margin-left: 100px;
+  }
+
+  .subestudiantes {
+    margin-left: 100px;
+  }
+
+  .botonunete {
+    margin-left: 100px;
+  }
+
+  .numero1,
+  .numero2 {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .desnu1 {
+    margin-left: 120px;
+  }
+  .desnu2 {
+    margin-left: -380px;
+  }
+
+  .imgcrecimiento {
+    margin-left: 160px;
+    margin-top: 100px;
+  }
+
+  .circulotres {
+    margin-left: 140px;
+    margin-top: -70px;
+  }
+
+  .itemcrecimiento,
+  .itemtextocreci {
+    margin-left: 250px;
+  }
+
+  .imgtecnologia {
+    margin-top: 100px;
+    margin-left: 160px;
+  }
+  .circulodos {
+    margin-top: -80px;
+    margin-left: 140px;
+  }
+  .itemtecnologia,
+  .itemtextotec {
+    margin-left: 250px;
+  }
+
+  .cuadrouno {
+    margin-left: 200px;
+  }
+  .cuadrodos {
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+
+  .uno {
+    margin-left: 60px;
+  }
+  .dos {
+    margin-left: 370px;
+  }
+  .tres {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .cuatro {
+    margin-left: 60px;
+  }
+  .sinco {
+    margin-left: 370px;
+  }
+  .seis {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+
+  .siete {
+    margin-left: 60px;
+  }
+  .ocho {
+    margin-left: 370px;
+  }
+  .nueve {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .diez {
+    margin-left: 60px;
+  }
+  .once {
+    margin-left: 370px;
+  }
+  .doce {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+
+  .preguntas,
+  .complemento {
+    margin-left: 200px;
+  }
+
+  .preguntasuno {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+  .preguntascuadro {
+    margin-left: 100px;
+  }
+
+  .preguntascuadrotres {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .logobit {
+    font-size: 30px;
+  }
+  .linea {
+    margin-left: 1000px;
+  }
+  .sublogobit {
+    font-size: 11px;
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
+  .menu {
+    margin-left: 300px;
+  }
+
+  .preguntasfrecuentes {
+    margin-left: 320px;
+  }
+
+  .tituloprincipal {
+    margin-top: 250px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .titulosegundario {
+    margin-left: -20px;
+    line-height: 29px;
+    font-size: 30px;
+  }
+
+  .botonhablemos {
+    margin-left: 50px;
+  }
+  .subtitulo {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .estudiantes {
+    margin-left: 20px;
+    font-size: 55px;
+  }
+
+  .subestudiantes {
+    margin-left: 20px;
+  }
+
+  .botonunete {
+    margin-left: 30px;
+  }
+
+  .numero1,
+  .numero2 {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .desnu1 {
+    margin-left: 120px;
+  }
+  .desnu2 {
+    margin-left: 10px;
+  }
+
+  .imgcreativa {
+    margin-left: 70px;
+  }
+  .circulouno {
+    margin-left: 50px;
+    margin-top: -90px;
+  }
+
+  .itemcreatividad,
+  .itemtextocrea {
+    margin-left: 150px;
+    font-size: 14px;
+  }
+
+  .imgcrecimiento {
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+
+  .circulotres {
+    margin-left: 50px;
+    margin-top: -70px;
+  }
+
+  .itemcrecimiento,
+  .itemtextocreci {
+    margin-left: 150px;
+    font-size: 14px;
+  }
+
+  .imgtecnologia {
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+  .circulodos {
+    margin-top: -95px;
+    margin-left: 50px;
+  }
+  .itemtecnologia,
+  .itemtextotec {
+    margin-left: 150px;
+    font-size: 13px;
+  }
+  .soluciones {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .subsoluciones {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .cuadrouno {
+    margin-left: -20px;
+    width: 300px;
+    height: 400px;
+  }
+  .asesor,
+  .tituloasesor,
+  .subasesor,
+  .empezaruno {
+    margin-left: 10px;
+  }
+
+  .cuadrodos {
+    margin-left: 0px;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+  }
+  .desarrollo,
+  .titulodesarrollo,
+  .subtexto,
+  .empezardos {
+    margin-left: 0px;
+  }
+  .titulonuestros {
+    font-size: 20px;
+  }
+  .subtitulonuestros {
+    font-size: 15px;
+  }
+  .uno {
+    margin-left: 60px;
+  }
+  .dos {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .tres {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .cuatro {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .sinco {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .seis {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+
+  .siete {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .ocho {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .nueve {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .diez {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .once {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  .doce {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+
+  .preguntas {
+    margin-left: 10px;
+  }
+  .complemento {
+    margin-left: 10px;
+  }
+
+  .preguntasuno {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 300px;
+    height: 400px;
+  }
+  .unonumero {
+    font-size: 50px;
+  }
+  .preguntauno {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .respuestauno {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .preguntascuadro {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 300px;
+    height: 400px;
+  }
+  .dosnumero {
+    font-size: 50px;
+  }
+  .preguntados {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .respuestados {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .preguntascuadrotres {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 300px;
+    height: 400px;
+  }
+  .tresnumero {
+    font-size: 50px;
+  }
+  .preguntatres {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .respuestatres {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
