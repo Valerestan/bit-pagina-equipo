@@ -1667,7 +1667,7 @@ li {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .logobit {
     font-size: 30px;
   }
