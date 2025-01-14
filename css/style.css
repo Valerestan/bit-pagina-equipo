@@ -1669,10 +1669,10 @@ li {
 
 @media screen and (max-width: 375px) {
   .logobit {
-    font-size: 30px;
+    font-size: 5px;
   }
   .linea {
-    margin-left: 1000px;
+    margin-left: 10px;
   }
   .sublogobit {
     font-size: 11px;
