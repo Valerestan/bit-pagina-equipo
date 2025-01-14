@@ -1539,6 +1539,7 @@ li {
 
   .tituloprincipal {
     margin-left: 120px;
+    font-size: 20px;
   }
 
   .botonhablemos {
@@ -1669,13 +1670,13 @@ li {
 
 @media screen and (max-width: 375px) {
   .logobit {
-    font-size: 5px;
+    font-size: 8px;
   }
   .linea {
     margin-left: 10px;
   }
   .sublogobit {
-    font-size: 11px;
+    font-size: 20px;
     margin-left: 130px;
     margin-top: 20px;
   }
@@ -1685,7 +1686,7 @@ li {
   }
 
   .preguntasfrecuentes {
-    margin-left: 320px;
+    margin-left: 100px;
   }
 
   .tituloprincipal {
